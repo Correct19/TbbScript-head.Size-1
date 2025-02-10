@@ -1,6 +1,6 @@
 local npcs = workspace.NPCFolders.EnemyFolder
 
-while task.wait(0.2) do
+while task.wait() do
 for _, v in ipairs(npcs:GetChildren()) do
     local head = v:FindFirstChild("Head")
     if head then
